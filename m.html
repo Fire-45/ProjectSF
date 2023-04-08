@@ -19,9 +19,12 @@
         <br><br><br>
         <label class = "DESIGN">The person speaking is: <label id = "WHO">Unkown</label></label>
         <br><br>
+        <label class = "DESIGN">I am <label id = "CONFIDENCE">0</label>% sure</label>
+        <br><br>
         <label class = "DESIGN">They said: <label id = "SAID">something</label></label>
         <br><br>
-        <button class = "btn btn-info" onclick = "BEGIN()">Begin</button>
+        <button class = "btn btn-info" onclick = "BEGIN(), setTimeout(TIME, 3000)">Begin</button>
+        <!--Here in this Begin button I added two functions, a timer function called TIME, which activates after 3 seconds and the begin function which activates immediatly this solves the problem of the constant change of the name and confidence level.-->
     </center>
     <script src = "m.js"></script>
 </body>
