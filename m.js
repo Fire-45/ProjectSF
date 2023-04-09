@@ -45,7 +45,9 @@ function BEGIN(){
 
 
 function TIME(){
-    window.alert("Please check your results and reload the page afterwards");
+    if(document.getElementById("SAID").get != ""){
+       window.alert("Please check your results and reload the page afterwards");
+    }
 }
 //here I set a function connected to a timer in html, look in HTML
 
