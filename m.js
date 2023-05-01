@@ -16,7 +16,7 @@ function BEGIN(){
     //after this, everything inside this Begin function is all code for the model + recognition commands
 
     navigator.mediaDevices.getUserMedia({audio:true});
-    classifier = ml5.soundClassifier("https://teachablemachine.withgoogle.com/models/yQCuakxIS/model.json",modelReady);
+    classifier = ml5.soundClassifier("https://teachablemachine.withgoogle.com/models/kwzgv9fpt/model.json",modelReady);
     //this is to setup the model and make sure the microphone is working
 
     function modelReady(){
